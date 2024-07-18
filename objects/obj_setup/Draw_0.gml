@@ -22,7 +22,7 @@ with(obj_light){
     shader_set(shd_light);
     shader_set_uniform_f(_u_pos,x,y);
     shader_set_uniform_f(_u_z,_z);
-    draw_rectangle(0,0,320,180,0); //canvas for drawing the light
+    draw_rectangle(0,0,1792,1024,0); //canvas for drawing the light
     gpu_set_blendmode(bm_normal);
 
     _z--; //Next set of shadows and lights is set closer to the screen
