@@ -6,17 +6,12 @@
   ],
   "managed":true,
   "name":"obj_button_quit",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_parrent","path":"objects/obj_button_parrent/obj_button_parrent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_button_parrent/obj_button_parrent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Quit",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_button_parrent",
-    "path":"objects/obj_button_parrent/obj_button_parrent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -35,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_button",
-    "path":"sprites/s_button/s_button.yy",
+    "name":"s_quitbtn",
+    "path":"sprites/s_quitbtn/s_quitbtn.yy",
   },
   "spriteMaskId":null,
   "visible":true,

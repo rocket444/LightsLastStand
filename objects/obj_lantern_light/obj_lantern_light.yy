@@ -8,8 +8,8 @@
   "name":"obj_lantern_light",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Light",
+    "path":"folders/Objects/Light.yy",
   },
   "parentObjectId":{
     "name":"obj_light",
@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_light_point",
-    "path":"sprites/spr_light_point/spr_light_point.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
