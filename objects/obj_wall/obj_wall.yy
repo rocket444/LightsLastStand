@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_quit",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_wall",
+  "eventList":[],
   "managed":true,
-  "name":"obj_button_quit",
+  "name":"obj_wall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Light",
+    "path":"folders/Objects/Light.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_quitbtn",
-    "path":"sprites/s_quitbtn/s_quitbtn.yy",
+    "name":"Wall",
+    "path":"sprites/Wall/Wall.yy",
   },
   "spriteMaskId":null,
   "visible":true,
