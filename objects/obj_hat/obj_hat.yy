@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_scale_room",
+  "%Name":"obj_hat",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_scale_room",
+  "name":"obj_hat",
   "overriddenProperties":[],
   "parent":{
-    "name":"Main_menu",
-    "path":"folders/Objects/Main_menu.yy",
+    "name":"Player",
+    "path":"folders/Objects/Player.yy",
   },
-  "parentObjectId":null,
-  "persistent":true,
+  "parentObjectId":{
+    "name":"obj_character",
+    "path":"objects/obj_character/obj_character.yy",
+  },
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -30,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_hat",
+    "path":"sprites/s_hat/s_hat.yy",
+  },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

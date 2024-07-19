@@ -26,10 +26,10 @@ with(obj_light){
     draw_rectangle_color(0,0,1792,1024, color, color, color, color, 0); //canvas for drawing the light
 }
 surface_reset_target();
-shader_reset();
 
 gpu_set_blendmode_ext(bm_zero, bm_src_color);
 shader_set(shd_shadsurf);
 draw_surface_ext(shad_surf,0,0,1,1,0,c_white,1);
+shader_reset();
 gpu_set_blendmode(bm_normal);
 
