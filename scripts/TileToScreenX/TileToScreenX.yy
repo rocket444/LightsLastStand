@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"TileToScreenX",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"TileToScreenX",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
