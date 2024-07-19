@@ -5,7 +5,7 @@ var _u_zz = u_zz;
 var _vb = vb;
 
 if (!surface_exists(shad_surf)) {
-	shad_surf = surface_create(320,180);
+	shad_surf = surface_create(1792,1024);
 }
 
 surface_set_target(shad_surf);
@@ -25,9 +25,11 @@ with(obj_light){
     shader_set_uniform_f(_u_zz, size);
     draw_rectangle_color(0,0,1792,1024, color, color, color, color, 0); //canvas for drawing the light
 }
-shader_reset();
 surface_reset_target();
+shader_reset();
 
 gpu_set_blendmode_ext(bm_zero, bm_src_color);
-draw_surface(shad_surf,0,0);
+shader_set(shd_shadsurf);
+draw_surface_ext(shad_surf,0,0,1,1,0,c_white,1);
 gpu_set_blendmode(bm_normal);
+

@@ -53,6 +53,7 @@
     {"id":{"name":"scale_canvas","path":"scripts/scale_canvas/scale_canvas.yy",},},
     {"id":{"name":"shd_light","path":"shaders/shd_light/shd_light.yy",},},
     {"id":{"name":"shd_shadow","path":"shaders/shd_shadow/shd_shadow.yy",},},
+    {"id":{"name":"shd_shadsurf","path":"shaders/shd_shadsurf/shd_shadsurf.yy",},},
     {"id":{"name":"b35ee9ad_ed64_44c3_899a_b50e0fe1ea4b","path":"sprites/b35ee9ad_ed64_44c3_899a_b50e0fe1ea4b/b35ee9ad_ed64_44c3_899a_b50e0fe1ea4b.yy",},},
     {"id":{"name":"s_character","path":"sprites/s_character/s_character.yy",},},
     {"id":{"name":"s_lantern","path":"sprites/s_lantern/s_lantern.yy",},},
