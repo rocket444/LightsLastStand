@@ -1,32 +1,9 @@
-var _player_speed = 1.2;
+var _right = keyboard_check(ord("D"));
+var _left = keyboard_check(ord("A"));
+var _up = keyboard_check(ord("W"));
+var _down = keyboard_check(ord("S"));
 
-if(keyboard_check(ord("W")) && keyboard_check(ord("D"))) {
-	direction = 45;
-	speed = _player_speed;
-} else if(keyboard_check(ord("W")) && keyboard_check(ord("A"))) {
-	direction = 135;
-	speed = _player_speed;
-} else if(keyboard_check(ord("S")) && keyboard_check(ord("A"))) {
-	direction = 225;
-	speed = _player_speed;
-} else if(keyboard_check(ord("S")) && keyboard_check(ord("D"))) {
-	direction = 315;
-	speed = _player_speed;
-} else if(keyboard_check(ord("W"))) {
-	direction = 90;
-	speed = _player_speed;
-} else if(keyboard_check(ord("A"))) {
-	direction = 180;
-	speed = _player_speed;
-} else if(keyboard_check(ord("S"))) {
-	direction = 270;
-	speed = _player_speed;
-} else if(keyboard_check(ord("D"))) {
-	direction = 0;
-	speed = _player_speed;
-}
+var _xinput = _right - _left;
+var _yinput = _down - _up;
 
-
-if(keyboard_check_released(ord("W") || ord("A") || ord("S") || ord("D"))) {
-	speed = 0;
-}
+move_and_collide(_xinput * 1, _yinput * 1, obj_wall);
