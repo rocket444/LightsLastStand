@@ -68,7 +68,6 @@
     {"id":{"name":"s_lantern","path":"sprites/s_lantern/s_lantern.yy",},},
     {"id":{"name":"s_LBarEmpty","path":"sprites/s_LBarEmpty/s_LBarEmpty.yy",},},
     {"id":{"name":"s_LBarEndCell","path":"sprites/s_LBarEndCell/s_LBarEndCell.yy",},},
-    {"id":{"name":"s_LBarFull","path":"sprites/s_LBarFull/s_LBarFull.yy",},},
     {"id":{"name":"s_LBarMiddleCell","path":"sprites/s_LBarMiddleCell/s_LBarMiddleCell.yy",},},
     {"id":{"name":"s_LBarStartCell","path":"sprites/s_LBarStartCell/s_LBarStartCell.yy",},},
     {"id":{"name":"s_quitbtn","path":"sprites/s_quitbtn/s_quitbtn.yy",},},
