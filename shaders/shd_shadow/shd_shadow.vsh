@@ -1,7 +1,6 @@
 attribute vec3 in_Position;                  // (x,y,z)
 
 uniform vec2 u_pos; //light source positon
-uniform float u_z; //depth position
 
 void main(){
     vec2 pos = in_Position.xy;
@@ -10,6 +9,6 @@ void main(){
         vec2 dis = pos - u_pos;
         pos += dis/sqrt(dis.x*dis.x + dis.y*dis.y) * 100000.; //repositioning the vertex with respect to the light position
     }
-    vec4 object_space_pos = vec4( pos.x, pos.y, u_z-0.5, 1.0); //shadow is drawn at a z-value closer to the screen than its corresponding light.
+    vec4 object_space_pos = vec4( pos.x, pos.y, 0., 1.0); //shadow is drawn at a z-value closer to the screen than its corresponding light.
     gl_Position = gm_Matrices[MATRIX_WORLD_VIEW_PROJECTION] * object_space_pos;
 }
