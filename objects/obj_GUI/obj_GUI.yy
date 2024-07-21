@@ -36,6 +36,13 @@
     {"$GMObjectProperty":"v1","%Name":"gain_time_lumen","filters":[],"listItems":[],"multiselect":false,"name":"gain_time_lumen","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"critical_lumen","filters":[],"listItems":[],"multiselect":false,"name":"critical_lumen","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"size","filters":[],"listItems":[],"multiselect":false,"name":"size","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"inventory_open","filters":[],"listItems":[],"multiselect":false,"name":"inventory_open","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"amount_of_slots","filters":[],"listItems":[],"multiselect":false,"name":"amount_of_slots","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"usable_skills","filters":[],"listItems":[
+        "\"s_Test_skill\"",
+        "\"s_Testy_skill\"",
+        "\"s_Tester_skill\"",
+      ],"multiselect":true,"name":"usable_skills","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"s_Test_skill\", \"s_Testy_skill\", \"s_Tester_skill\"","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
