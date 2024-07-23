@@ -35,7 +35,7 @@ if (mouse_check_button_pressed(mb_left)) {
 		var _half_slot_widht = (sprite_get_width(s_Slot) * size) / 2;
 		
 		if (drag) {
-			for(i = 0; i < amount_of_slots; ++i) {
+			for(i = 0; i < array_length(slot_array_x); ++i) {
 			
 				var _slo_t_x = slot_array_x[i] - _half_slot_widht;
 				var _slo_t_y = slot_array_y[i] - _half_slot_height;
@@ -69,7 +69,7 @@ if (mouse_check_button_pressed(mb_left)) {
 				}
 			}
 		} else {
-			for(i = 0; i < amount_of_slots; ++i) {
+			for(i = 0; i < array_length(slot_array_x); ++i) {
 				var _ski_t_x = skill_array_x[i] - _half_slot_widht;
 				var _ski_t_y = skill_array_y[i] - _half_slot_height;
 			

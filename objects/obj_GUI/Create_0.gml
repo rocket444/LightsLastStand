@@ -3,16 +3,19 @@ view_height = view_hport[0];
 blink = true;
 
 
-slot_array_x = array_create(amount_of_slots);
-slot_array_y = array_create(amount_of_slots);
+var _array_length = amount_of_spells + (amount_of_inv_columns * amount_of_inv_lines);
 
-skill_array_x = array_create(amount_of_slots, -sprite_get_width(s_Slot));
-skill_array_y = array_create(amount_of_slots, -sprite_get_height(s_Slot));
-skill_array_n = array_create(amount_of_slots, noone);
+
+slot_array_x = array_create(_array_length);
+slot_array_y = array_create(_array_length);
+
+skill_array_x = array_create(_array_length, -sprite_get_width(s_Slot));
+skill_array_y = array_create(_array_length, -sprite_get_height(s_Slot));
+skill_array_n = array_create(_array_length, noone);
 
 for (var i = 0; i < array_length(usable_skills); ++i) {
-	if (array_length(skill_array_n) > i) {
-		skill_array_n[i] = asset_get_index(usable_skills[i]);	
+	if (array_length(skill_array_n) > i + amount_of_spells) {
+		skill_array_n[i + amount_of_spells] = asset_get_index(usable_skills[i]);	
 	}
 }
 
