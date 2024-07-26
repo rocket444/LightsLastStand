@@ -7,3 +7,5 @@ var _xinput = _right - _left;
 var _yinput = _down - _up;
 
 move_and_collide(_xinput * 1, _yinput * 1, obj_wall);
+
+depth = -y;
