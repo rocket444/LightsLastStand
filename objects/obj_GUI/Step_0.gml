@@ -1,9 +1,9 @@
 // Check Lumen events
-if (obj_lantern_light.size == 0 && !alarm[0]) {
+if (obj_lantern_light.str == 0 && !alarm[0]) {
 	alarm[0] = decay_time_lumen * room_speed;	
 }
 
-if (obj_lantern_light.size > 0 && !alarm[1]) {
+if (obj_lantern_light.str > 0 && !alarm[1]) {
 	alarm[1] = gain_time_lumen * room_speed;	
 }
 
@@ -15,16 +15,7 @@ if (lumen_charge <= critical_lumen && !alarm[2]) {
 // Check inputs
 
 // Check if Inventory is open
-if (!inventory_open) {
-// If lmb was pressed turn off or on light
-if (mouse_check_button_pressed(mb_left)) {
-		if (obj_lantern_light.size > 0) {
-			obj_lantern_light.size = 0;	
-		} else {
-			obj_lantern_light.size = 500;	
-		}
-	}
-} else {
+if (inventory_open) {
 // Check what player is doing / pressing in inventory
 	var _guix = device_mouse_x_to_gui(0); // Get the mouse position on the GUI layer
 	var _guiy = device_mouse_y_to_gui(0);

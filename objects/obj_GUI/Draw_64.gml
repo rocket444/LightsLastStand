@@ -5,11 +5,13 @@ draw_sprite_ext(s_LBarEmpty, 0, 0, 1, size, size, 0, blink? c_white : c_red, 1);
 image_blend = c_red;
 
 if (lumen_charge <= 0) {
-	lumen_charge = 0;	
+	lumen_charge = 0;
+	obj_character.light_creature = false;
 }
 
 if (lumen_charge >= 1) {
 	draw_sprite_ext(s_LBarStartCell, 0, 0, 1, size, size, 0, blink? c_white : c_red, 1);
+	obj_character.light_creature = true;
 }
 
 if (lumen_charge >= 2) {
