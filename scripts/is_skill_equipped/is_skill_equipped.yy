@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"canvas_fullscreen",
+  "%Name":"is_skill_equipped",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"canvas_fullscreen",
+  "name":"is_skill_equipped",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

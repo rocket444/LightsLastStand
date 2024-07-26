@@ -1,9 +1,9 @@
 // Check Lumen events
-if (obj_lantern_light.str == 0 && !alarm[0]) {
+if (!obj_lantern_light.is_on && !alarm[0]) {
 	alarm[0] = decay_time_lumen * room_speed;	
 }
 
-if (obj_lantern_light.str > 0 && !alarm[1]) {
+if (obj_lantern_light.is_on && !alarm[1]) {
 	alarm[1] = gain_time_lumen * room_speed;	
 }
 
@@ -87,4 +87,8 @@ if (inventory_open) {
 // Open or close inventory when pressing "I"
 if keyboard_check_pressed(ord("I")) {
 	inventory_open = !inventory_open;	
+}
+
+if keyboard_check_pressed(vk_escape) {
+	inventory_open = false;
 }

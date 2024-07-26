@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scale_canvas",
+  "%Name":"get_direction",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scale_canvas",
+  "name":"get_direction",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
