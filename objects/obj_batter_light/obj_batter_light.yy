@@ -1,15 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_lantern_light",
+  "%Name":"obj_batter_light",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_lantern_light",
+  "name":"obj_batter_light",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player_Light",
-    "path":"folders/Objects/Light/Player_Light.yy",
+    "name":"Interactable_Light",
+    "path":"folders/Objects/Light/Interactable_Light.yy",
   },
   "parentObjectId":{
     "name":"obj_light",

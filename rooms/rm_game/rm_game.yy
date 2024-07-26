@@ -23,6 +23,8 @@
     {"name":"inst_71441109","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_6E48E163","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_2A3CB531","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_265C15CA","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_7AEE1DA3","path":"rooms/rm_game/rm_game.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -53,6 +55,12 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"propertyId":{"name":"dir","path":"objects/obj_light/obj_light.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"propertyId":{"name":"fov","path":"objects/obj_light/obj_light.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"360",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":64.0,},
+        {"$GMRInstance":"v1","%Name":"inst_265C15CA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_265C15CA","objectId":{"name":"obj_batter_light","path":"objects/obj_batter_light/obj_batter_light.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"propertyId":{"name":"color","path":"objects/obj_light/obj_light.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FFFFFF00",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"propertyId":{"name":"size","path":"objects/obj_light/obj_light.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"propertyId":{"name":"str","path":"objects/obj_light/obj_light.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":368.0,"y":112.0,},
+        {"$GMRInstance":"v1","%Name":"inst_7AEE1DA3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7AEE1DA3","objectId":{"name":"obj_battery","path":"objects/obj_battery/obj_battery.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":376.0,"y":119.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Lights","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_51505302","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_51505302","objectId":{"name":"obj_setup","path":"objects/obj_setup/obj_setup.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":-32.0,},
