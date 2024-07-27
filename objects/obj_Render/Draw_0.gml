@@ -25,8 +25,7 @@ for (var tX = 0; tX < MAP_W; tX++)
 		
 		if (tileIndex != 0) 
 		{
-			//draw_sprite(s_Static, tileIndex-1, screenX, screenY + tileZ);
-			instance_create_layer(screenX, screenY, "renderFuckery", obj_testing);
+			draw_sprite(s_Static, tileIndex-1, screenX, screenY + tileZ);
 		}
 	}
 }

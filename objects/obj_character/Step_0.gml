@@ -12,6 +12,12 @@ if (keyboard_check(ord("A")) && image_xscale > 0) {
 var _xinput = _right - _left;
 var _yinput = _down - _up;
 
-move_and_collide(_xinput * 1, _yinput * 1, obj_testing);
+if (!place_meeting(x + _xinput, y, tilemap)) {
+	move_and_collide(_xinput * 1, 0, obj_wall);
+}
+
+if (!place_meeting(x, y + _yinput, tilemap)) {
+	move_and_collide(0, _yinput * 1, obj_wall);
+}
 
 depth = -y;
