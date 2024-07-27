@@ -57,6 +57,7 @@
     {"id":{"name":"obj_Render","path":"objects/obj_Render/obj_Render.yy",},},
     {"id":{"name":"obj_scale_room","path":"objects/obj_scale_room/obj_scale_room.yy",},},
     {"id":{"name":"obj_setup","path":"objects/obj_setup/obj_setup.yy",},},
+    {"id":{"name":"obj_testing","path":"objects/obj_testing/obj_testing.yy",},},
     {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},

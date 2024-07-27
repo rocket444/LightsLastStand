@@ -12,6 +12,6 @@ if (keyboard_check(ord("A")) && image_xscale > 0) {
 var _xinput = _right - _left;
 var _yinput = _down - _up;
 
-move_and_collide(_xinput * 1, _yinput * 1, obj_wall);
+move_and_collide(_xinput * 1, _yinput * 1, obj_testing);
 
 depth = -y;

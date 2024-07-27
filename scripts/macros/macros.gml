@@ -1,5 +1,5 @@
-#macro MAP_W 20
-#macro MAP_H 11
+#macro MAP_W 40
+#macro MAP_H 22
 #macro TILE_W 65
 #macro TILE_H 32
 #macro SCREEN_W 320
