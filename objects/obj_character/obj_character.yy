@@ -31,7 +31,9 @@
     {"x":0.0,"y":64.0,},
   ],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"light_creature","filters":[],"listItems":[],"multiselect":false,"name":"light_creature","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
@@ -40,5 +42,5 @@
     "path":"sprites/s_character/s_character.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
