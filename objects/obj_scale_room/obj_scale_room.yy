@@ -1,16 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
-  "eventList":[],
+  "%Name":"obj_scale_room",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_wall",
+  "name":"obj_scale_room",
   "overriddenProperties":[],
   "parent":{
-    "name":"Light",
-    "path":"folders/Objects/Light.yy",
+    "name":"Main_menu",
+    "path":"folders/Objects/Main_menu.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -27,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Wall",
-    "path":"sprites/Wall/Wall.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":false,
 }
