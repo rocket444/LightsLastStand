@@ -1,3 +1,3 @@
-if (obj_battery_light.str < 10) {
-	obj_battery_light.str += 1.;	
+if (battery_charge < 10) {
+	battery_charge += 1;	
 }

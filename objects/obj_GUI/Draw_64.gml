@@ -46,7 +46,6 @@ if (inventory_open) {
 	var _inv_gap_top = (view_height - _inv_height);
 	var _lan_gap_top = (view_height - _lan_height) * 2.09;
 	
-	
 	var _lantern_inv_x = view_width - _inv_width - (view_width / 15);
 	
 	draw_sprite_ext(s_lantenrt_inv, 0, _lantern_inv_x, view_height / 2, size, size, 0, c_white, 1);

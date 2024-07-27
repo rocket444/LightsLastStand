@@ -1,8 +1,8 @@
 x = obj_lantern.x;
 y = obj_lantern.y;
 
-var _x1 = obj_character.x;
-var _y1 = obj_character.y;
+var _x1 = obj_character_visuals.x;
+var _y1 = obj_character_visuals.y;
 var _x2 = x;
 var _y2 = y;
 
