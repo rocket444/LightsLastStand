@@ -8,8 +8,8 @@
   "name":"obj_lantern_light",
   "overriddenProperties":[],
   "parent":{
-    "name":"Light",
-    "path":"folders/Objects/Light.yy",
+    "name":"Player_Light",
+    "path":"folders/Objects/Light/Player_Light.yy",
   },
   "parentObjectId":{
     "name":"obj_light",

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"shine_angle_mnatches_with_mouse",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"shine_angle_mnatches_with_mouse",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

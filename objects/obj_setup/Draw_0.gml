@@ -2,6 +2,9 @@
 var _u_pos = u_pos;
 var _u_pos2 = u_pos2;
 var _u_zz = u_zz;
+var _u_str = u_str;
+var _u_dir = u_dir;
+var _u_fov = u_fov;
 var _vb = vb;
 
 if (!surface_exists(shad_surf)) {
@@ -23,6 +26,9 @@ with(obj_light){
     shader_set(shd_light);
     shader_set_uniform_f(_u_pos,x,y);
     shader_set_uniform_f(_u_zz, size);
+    shader_set_uniform_f(_u_str, str);
+    shader_set_uniform_f(_u_dir, dir);
+    shader_set_uniform_f(_u_fov, fov);
     draw_rectangle_color(0,0,1792,1024, color, color, color, color, 0); //canvas for drawing the light
 }
 surface_reset_target();
