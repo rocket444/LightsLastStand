@@ -6,6 +6,7 @@ var _down = keyboard_check(ord("S"));
 var _xinput = _right - _left;
 var _yinput = _down - _up;
 
+if (!place_meeting(x + _xinput, y, tilemap)) {
 //Check X
 if (!place_meeting(x + _xinput * 1, y, obj_wall)) {
 	move_and_collide(_xinput * 1, 0, obj_wall);
