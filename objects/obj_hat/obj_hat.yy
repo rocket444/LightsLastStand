@@ -11,10 +11,7 @@
     "name":"Player",
     "path":"folders/Objects/Player.yy",
   },
-  "parentObjectId":{
-    "name":"obj_character",
-    "path":"objects/obj_character/obj_character.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
