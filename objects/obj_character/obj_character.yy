@@ -42,5 +42,5 @@
     "path":"sprites/s_character/s_character.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

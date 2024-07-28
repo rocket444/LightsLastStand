@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"TileToScreenX",
+  "%Name":"tile_to_screen",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"TileToScreenX",
+  "name":"tile_to_screen",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
