@@ -7,6 +7,7 @@ image_blend = c_red;
 if (lumen_charge <= 0) {
 	lumen_charge = 0;
 	obj_character.light_creature = false;
+	obj_fade_out.fade_out = true;
 }
 
 if (lumen_charge >= 1) {

@@ -10,7 +10,7 @@ var _y2 = y;
 dir = get_direction(_x1, _y1, _x2, _y2);
 
 
-if (!obj_gui.inventory_open && mouse_check_button_pressed(mb_left)) {
+if (!obj_gui.inventory_open && mouse_check_button_pressed(mb_left) && obj_character.light_creature) {
 	is_on = !is_on;
 }
 
