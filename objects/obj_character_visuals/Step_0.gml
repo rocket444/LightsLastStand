@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-x = char_to_screen_x(obj_character.x, obj_character.y);
-y = char_to_screen_y(obj_character.x, obj_character.y);
+x = coordinates_to_screen_x(obj_character.x, obj_character.y);
+y = coordinates_to_screen_y(obj_character.x, obj_character.y);
 
 depth = -y;
 

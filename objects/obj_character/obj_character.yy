@@ -38,9 +38,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_character",
-    "path":"sprites/s_character/s_character.yy",
+    "name":"s_standInChar",
+    "path":"sprites/s_standInChar/s_standInChar.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -8,15 +8,14 @@ for (var _tx = 0; _tx < MAP_W; _tx++)
 	{
 		_tile_data = global.theMap[# _tx, _ty];
 		
-		_screen_x = tile_to_screen_x(_tx, _ty);
-		_screen_y = tile_to_screen_y(_tx, _ty);
+		_screen_x = matrix_to_screen_x(_tx, _ty);
+		_screen_y = matrix_to_screen_y(_tx, _ty);
 		
 		_tile_index = _tile_data[TILE.SPRITE];
-		_tile_z = _tile_data[TILE.Z] + 100;
 		
 		if (_tile_index != 0) 
 		{
-			draw_sprite(s_Static, _tile_index-1, _screen_x, _screen_y + _tile_z);
+			draw_sprite(s_Static, _tile_index-1, _screen_x + 100, _screen_y + 100);
 		}
 	}
 }

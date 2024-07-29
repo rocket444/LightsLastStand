@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"char_to_screen",
+  "%Name":"matrix_to_screen",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"char_to_screen",
+  "name":"matrix_to_screen",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

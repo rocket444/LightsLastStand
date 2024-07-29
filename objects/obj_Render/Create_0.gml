@@ -1,6 +1,7 @@
 /// @description Build the map
 
 layer_set_visible("Map", false);
+layer_set_visible("Collission", false);
 
 global.theMap = ds_grid_create(MAP_W, MAP_H);
 
