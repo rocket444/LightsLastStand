@@ -35,7 +35,7 @@ if (inventory_open) {
 	draw_sprite_ext(s_Invnetory, 0, view_width, view_height / 2, size, size, 0, c_white, 1);
 	
 	
-	var _inv_width = sprite_get_width(s_Invnetory) * size;
+	var _inv_width = (sprite_get_width(s_Invnetory) - 100) * size;
 	var _inv_height = sprite_get_height(s_Invnetory) * size;
 	
 	var _lan_width = sprite_get_width(s_lantenrt_inv) * size;
@@ -44,7 +44,7 @@ if (inventory_open) {
 	var _slot_width = sprite_get_width(s_Slot) * size;
 	var _slot_height = sprite_get_height(s_Slot) * size;
 	
-	var _inv_gap_top = (view_height - _inv_height);
+	var _inv_gap_top = (view_height - _inv_height) / 1.5;
 	var _lan_gap_top = (view_height - _lan_height) * 2.09;
 	
 	var _lantern_inv_x = view_width - _inv_width - (view_width / 15);

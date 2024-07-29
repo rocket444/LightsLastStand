@@ -1,0 +1,1 @@
+obj_battery_light.is_in_light = shine_angle_mnatches_with_mouse(x, y);

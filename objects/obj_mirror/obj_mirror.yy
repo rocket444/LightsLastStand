@@ -33,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s_mirror",
-    "path":"sprites/s_mirror/s_mirror.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

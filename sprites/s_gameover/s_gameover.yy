@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"s_gameover",
   "bboxMode":0,
-  "bbox_bottom":719,
+  "bbox_bottom":729,
   "bbox_left":0,
   "bbox_right":1279,
   "bbox_top":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1fedb72a-a1dc-46c5-b926-d8ab3f264c08","name":"1fedb72a-a1dc-46c5-b926-d8ab3f264c08","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0ef049c2-4c61-491d-b853-403c29511acc","name":"0ef049c2-4c61-491d-b853-403c29511acc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":720,
+  "height":730,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c5eefba0-c1f7-4163-b90a-0dabd4ba5ef5","blendMode":0,"displayName":"default","isLocked":false,"name":"c5eefba0-c1f7-4163-b90a-0dabd4ba5ef5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"4f0f5cf9-e7d2-446b-9b8b-ef3a623c5895","blendMode":0,"displayName":"default","isLocked":false,"name":"4f0f5cf9-e7d2-446b-9b8b-ef3a623c5895","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"s_gameover",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1fedb72a-a1dc-46c5-b926-d8ab3f264c08","path":"sprites/s_gameover/s_gameover.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"51809d8e-ba1f-48b3-b7fc-1e09deaccf7e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0ef049c2-4c61-491d-b853-403c29511acc","path":"sprites/s_gameover/s_gameover.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"aabd8e1b-8295-46cd-a31d-f71a34394286","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

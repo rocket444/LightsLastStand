@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"screen_to_coordinates",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"screen_to_coordinates",
+  "parent":{
+    "name":"display_conversion",
+    "path":"folders/Scripts/display_conversion.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

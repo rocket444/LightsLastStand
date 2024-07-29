@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"coordinates_to_screen",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"display_conversion",
+    "path":"folders/Scripts/display_conversion.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -1,7 +1,7 @@
 //Creates Quad with two triangles. Used to make the shadows.
 //Z coordinate is used as a flag to determine if the vertex will be repositioned in the shader
 
-depth = -y;
+depth = -y - 10000;
 
 function Quad(_vb,_x1,_y1,_x2,_y2){
     //Upper triangle
