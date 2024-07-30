@@ -8,7 +8,7 @@ var _u_fov = u_fov;
 var _vb = vb;
 
 if (!surface_exists(shad_surf)) {
-	shad_surf = surface_create(1792,1024);
+	shad_surf = surface_create(room_width, room_height);
 }
 
 surface_set_target(shad_surf);
@@ -29,7 +29,7 @@ with(obj_light){
     shader_set_uniform_f(_u_str, str);
     shader_set_uniform_f(_u_dir, dir);
     shader_set_uniform_f(_u_fov, fov);
-    draw_rectangle_color(0,0,1792,1024, color, color, color, color, 0); //canvas for drawing the light
+    draw_rectangle_color(0,0, room_width, room_height, color, color, color, color, 0); //canvas for drawing the light
 }
 surface_reset_target();
 

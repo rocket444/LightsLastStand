@@ -3,16 +3,37 @@ var _left = keyboard_check(ord("A"));
 var _up = keyboard_check(ord("W"));
 var _down = keyboard_check(ord("S"));
 
-var _xinput = _right - _left;
-var _yinput = _down - _up;
+var _xinput = 0;
+var _yinput = 0;
 
-//Check X
-if (!place_meeting(x + _xinput * 1, y, obj_wall)) {
-	move_and_collide(_xinput * 1, 0, obj_wall);
+if (_right) {
+	_yinput -= 1;	
+	_xinput += 1;
 }
 
-//Check y
-if (!place_meeting(x, y + _yinput * 1, obj_wall)) {
-	move_and_collide(0, _yinput, obj_wall);
+if (_left) {
+	_yinput += 1;
+	_xinput -= 1;
 }
+
+if (_up) {
+	_yinput -= 1;	
+	_xinput -= 1;	
+}
+
+if (_down) {
+	_yinput += 1;	
+	_xinput += 1;	
+}
+
+var _nearest_wall = instance_nearest(x, y, obj_wall);
+if (!(place_meeting(x + _xinput, y + _yinput, _nearest_wall) && _nearest_wall.is_active)) {
+	move_and_collide(_xinput / 3, _yinput / 3, tilemap);
+}
+
+x = clamp(x,0, room_width);
+
+y= clamp(y,0, room_height);
+
+depth = -y;
 

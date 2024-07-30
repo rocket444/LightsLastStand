@@ -1,5 +1,8 @@
 //Creates Quad with two triangles. Used to make the shadows.
 //Z coordinate is used as a flag to determine if the vertex will be repositioned in the shader
+
+depth = -y - 10000;
+
 function Quad(_vb,_x1,_y1,_x2,_y2){
     //Upper triangle
     vertex_position_3d(_vb,_x1,_y1,0);
@@ -16,7 +19,7 @@ function Quad(_vb,_x1,_y1,_x2,_y2){
 //Instead of using the four edges as the walls, we use the diagonals instead (Optimization)
 vertex_begin(vb,vf);
 var _vb = vb;
-with(obj_wall){
+with(obj_setup){
     Quad(_vb,x,y,x+sprite_width,y+sprite_height); //Negative Slope Diagonal Wall
     Quad(_vb,x+sprite_width,y,x,y+sprite_height); //Positive Slope Diagonal Wall
 }

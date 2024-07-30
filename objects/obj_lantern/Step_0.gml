@@ -4,3 +4,4 @@ var t = (sqrt(power(mouse_x - obj_character_visuals.x, 2) + power(mouse_y - obj_
 
 x = (r * mouse_x + t * obj_character_visuals.x) / (r + t);
 y = (r * mouse_y + t * obj_character_visuals.y) / (r + t);
+depth = -y;
