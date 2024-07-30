@@ -11,8 +11,4 @@ if(_is_in_range && is_in_light && obj_lantern_light.is_on){
 
 str = battery_charge;
 
-x = coordinates_to_screen_x(obj_stand_in_battery.x, obj_stand_in_battery.y);
-y = coordinates_to_screen_y(obj_stand_in_battery.x, obj_stand_in_battery.y);
-
-
 depth = -y;

@@ -32,7 +32,7 @@
   ],
   "name":"s_battery_crystal_0",
   "nineSlice":null,
-  "origin":7,
+  "origin":4,
   "parent":{
     "name":"Crystal",
     "path":"folders/Sprites/Interactable_tiles/Crystal.yy",
@@ -112,7 +112,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":12,
-    "yorigin":48,
+    "yorigin":24,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

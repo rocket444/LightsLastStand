@@ -5,7 +5,7 @@ depth = -y;
 
 var _shines_in_dir = shine_angle_mnatches_with_mouse(x, y);
 
-var _is_in_range = point_distance(x,y,obj_character.x,obj_character.y) <= obj_lantern_light.size / 8;
+var _is_in_range = point_distance(x,y,obj_character.x,obj_character.y) <= max(obj_lantern_light.size / 8, 30);
 
 if (_shines_in_dir && _is_in_range && obj_lantern_light.is_on) {
 	if (!alarm[1]) {
@@ -41,10 +41,11 @@ if (alarm[0]) {
 	eye_left.y = con_y;
 }
 
+var _new_x = x + lengthdir_x(m_speed, direction);
+var _new_y = y + lengthdir_y(m_speed, direction);
+
 if (alarm[1]) {
-	if (collision_line(x, y, obj_character.x, obj_character.y, tilemap, true, true) = noone) {
-		direction = point_direction(x,y,obj_character.x,obj_character.y);
-	}
+	direction = point_direction(x,y,obj_character.x,obj_character.y);
 	
 	eye_right.size = 5;
 	eye_right.str = 0.5;
@@ -59,12 +60,8 @@ if (alarm[1]) {
 	eye_left.y = con_y + 1;
 }
 
-
-var _new_x = x + lengthdir_x(m_speed, direction);
-var _new_y = y + lengthdir_y(m_speed, direction);
-
 // Check for collision at the new position
-if (!place_meeting(_new_x, _new_y, tilemap)) {
+if (!place_meeting(_new_x, _new_y, tilemap) && !place_meeting(_new_x, _new_y, tilemap_enemy)) {
     // If no collision, move the enemy
     x = _new_x;
     y = _new_y;

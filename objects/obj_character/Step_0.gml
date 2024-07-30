@@ -26,7 +26,10 @@ if (_down) {
 	_xinput += 1;	
 }
 
-move_and_collide(_xinput * 0.5, _yinput * 0.5, tilemap);
+var _nearest_wall = instance_nearest(x, y, obj_wall);
+if (!(place_meeting(x + _xinput, y + _yinput, _nearest_wall) && _nearest_wall.is_active)) {
+	move_and_collide(_xinput / 3, _yinput / 3, tilemap);
+}
 
 x = clamp(x,0, room_width);
 

@@ -2,6 +2,7 @@
 
 layer_set_visible("Map", false);
 layer_set_visible("Collission", false);
+layer_set_visible("Enemy_Bound", false);
 
 global.theMap = ds_grid_create(MAP_W, MAP_H);
 

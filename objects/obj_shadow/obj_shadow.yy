@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_stand_in_battery",
+  "%Name":"obj_shadow",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_stand_in_battery",
+  "name":"obj_shadow",
   "overriddenProperties":[],
   "parent":{
-    "name":"Interactable_Light",
-    "path":"folders/Objects/Light/Interactable_Light.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_stand_in_crystal",
-    "path":"sprites/s_stand_in_crystal/s_stand_in_crystal.yy",
+    "name":"s_shadow",
+    "path":"sprites/s_shadow/s_shadow.yy",
   },
   "spriteMaskId":null,
   "visible":true,

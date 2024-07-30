@@ -11,5 +11,5 @@ function shine_angle_mnatches_with_mouse(_x2, _y2){
 
 	var _dir_to_mouse = get_direction(_x1, _y1, _x3, _y3);
 
-	return angles_match_within_margin(_dir_to_object, _dir_to_mouse, obj_lantern_light.fov / 2);
+	return angles_match_within_margin(_dir_to_object, _dir_to_mouse, obj_lantern_light.fov);
 }
