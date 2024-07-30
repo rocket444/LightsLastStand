@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_shadow",
-    "path":"sprites/s_shadow/s_shadow.yy",
+    "name":"s_Rock",
+    "path":"sprites/s_Rock/s_Rock.yy",
   },
   "spriteMaskId":null,
   "visible":true,

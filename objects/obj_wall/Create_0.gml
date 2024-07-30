@@ -9,7 +9,7 @@ depth = -y;
 
 for (var _i = 0; _i < image_yscale; _i++) {
 	for (var _ii = 0; _ii < image_xscale; _ii++) {
-		var _x = coordinates_to_screen_x(x + _ii * 16 - 18, y + _i * 16 - 2);
+		var _x = coordinates_to_screen_x(x + _ii * 16, y + _i * 16);
 		var _y = coordinates_to_screen_y(x + _ii * 16 - 18, y + _i * 16 - 2);
 		wall_inst[_i + _ii] = instance_create_layer(_x, _y, "Instances", obj_shadow);
 	}
