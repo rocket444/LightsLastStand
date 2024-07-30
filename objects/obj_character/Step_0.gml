@@ -26,7 +26,7 @@ if (_down) {
 	_xinput += 1;	
 }
 
-move_and_collide(_xinput * 1, _yinput * 1, tilemap);
+move_and_collide(_xinput * 0.5, _yinput * 0.5, tilemap);
 
 x = clamp(x,0, room_width);
 

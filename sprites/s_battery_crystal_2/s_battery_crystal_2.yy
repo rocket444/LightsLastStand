@@ -34,8 +34,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Interactable_tiles",
-    "path":"folders/Sprites/Interactable_tiles.yy",
+    "name":"Crystal",
+    "path":"folders/Sprites/Interactable_tiles/Crystal.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
