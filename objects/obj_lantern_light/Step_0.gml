@@ -29,7 +29,7 @@ if (is_skill_equipped(s_add_strength)) {
 if (is_skill_equipped(s_add_size)) {
 	size = 500;
 } else {
-	size = 10;	
+	size = 50;	
 }
 
 if (is_on) {
